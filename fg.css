@@ -1,0 +1,135 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #000000;
+  padding: 16px 100px;
+  border-bottom: 1px solid #000;
+}
+
+nav {
+  display: flex;
+  gap: 50px; 
+}
+
+nav a {
+  text-decoration: none;  
+  color: #ffffff;          
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+   font-family: 'Lora', serif;
+  font-size: 17px;
+  line-height: 1.8;
+
+  
+}
+
+
+footer {
+  text-align: center;
+  padding: 5px 40px;
+  border-top: 1px solid #000000;
+  background: #000000;
+  color: #ffffff;
+}
+
+.logo {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+
+
+.menu-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #ffffff; /*fg color*/
+}
+
+.menu-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+
+.arrow {                 /*https://www.youtube.com/watch?v=4Lj9PVcdQgo - arrow guide */
+  display: inline-block;
+  font-size: 10px;
+  margin-left: 4px;
+  transform: scale(2.1);
+
+  transition: transform 0.3s ease;
+}
+
+.dropdown {
+  position: absolute;
+  top: 160%;
+  left: 0;
+
+  background: #000000;
+  border: 1px solid #000;
+  min-width: 220px;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: 0.3s ease;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px 16px;
+  font-size: 13px;
+}
+
+.menu-item:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menu-item:hover .arrow {
+  transform: rotate(180deg);
+ 
+}
+
+.fg {
+  width: 100%;
+}
+
+.fg img {
+  width: 100%;       
+  height: 100vh;       
+  object-fit: cover; 
+  display: block;     
+  object-position: top;
+}
+
+.fgq{
+  object-position: bottom;
+}
