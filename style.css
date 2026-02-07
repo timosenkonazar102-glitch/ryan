@@ -1,0 +1,66 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #ffffff;
+  padding: 16px 120px;
+  border-bottom: 1px solid #000;
+}
+
+nav {
+  display: flex;
+  gap: 50px; /* gap between links */
+}
+
+nav a {
+  text-decoration: none;   /* прибирає підкреслення */
+  color: #000000;          /* темно-синій */
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 5px 40px;
+  border-top: 1px solid #000;
+  background: #fff;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;        /* на всю ширину */
+  height: 100vh;       /* висота банера */
+  object-fit: cover; /* обрізає, а не тягне */
+  display: block;     /* прибирає білий зазор знизу */
+  object-position: top;
+}
+
+.logo {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
