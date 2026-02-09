@@ -92,6 +92,7 @@ h2 {
 
 .btn {
     font-style: oblique;
+    color: rgb(79, 34, 0);
 }
 
 .menu-item {
@@ -171,4 +172,3 @@ h2 {
   height: auto;
   display: block;
 }
-
