@@ -202,3 +202,16 @@ footer {
     text-indent: 0;
   }
 }
+
+.logo a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo a:hover{
+  color: rgb(250, 186, 255);
+}
+
+a:hover {
+  color:  rgb(250, 186, 255);
+}

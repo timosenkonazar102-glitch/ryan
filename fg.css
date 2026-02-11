@@ -202,3 +202,16 @@ footer {
     text-indent: 0;
   }
 }
+
+.logo a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo a:hover{
+  color: grey;
+}
+
+a:hover {
+  color:  gray;
+}

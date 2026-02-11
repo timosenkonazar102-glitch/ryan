@@ -235,3 +235,17 @@ h2{
     margin: 0;
   }
 }
+
+.logo a{
+  text-decoration: none;
+  color: #000;
+  
+}
+
+.logo a:hover{
+  color: grey;
+}
+
+a:hover {
+  color:  gray;
+}

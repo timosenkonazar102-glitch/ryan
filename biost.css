@@ -54,7 +54,11 @@ footer {
   font-size: 20px;
   letter-spacing: 3px;
   font-weight: 600;
-  color: #000000;
+}
+
+.logo a{
+  text-decoration: none;
+  color: #000;
 }
 
 .menu-item {
@@ -258,4 +262,12 @@ h2{
     width: 100%;
     margin: 0;
   }
+}
+
+.logo a:hover{
+  color: grey;
+}
+
+a:hover {
+  color:  gray;
 }
